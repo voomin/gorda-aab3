@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "554080724621",
+    "firebase_url": "https://tebah-236b1.firebaseio.com",
+    "project_id": "tebah-236b1",
+    "storage_bucket": "tebah-236b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554080724621:android:0533fcbcaa031e66",
+        "android_client_info": {
+          "package_name": "com.example.user.aab_test_firebase3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554080724621-fupnece5bi1jqfs0g65huv1pik2qk6po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKHg5b0D8ZYhdg2nwm2VBl_J5L3ox3e98"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
