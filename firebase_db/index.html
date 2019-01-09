@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>aab Admin friebaseDB</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h2>Admin Page for Firebase CloudeFireStore</h2>
+    <div class='conditions'>
+      <h1>조건</h1>
+      <button class="add">+</button>
+      <table class='ide'>
+          <tr>
+            <td>이름</td><td><input class='insertName'/></td>
+          </tr>
+          <tr>
+            <td colspan="2" class='tags'></td>
+          </tr>
+          <tr>
+            <td colspan="2" class='btn'>추가하기</td>
+          </tr>
+      </table>
+      <div class='box'></div>
+    </div>
+    <hr>
+    <div class='foods'>
+        <h1>음식</h1>
+        <button class="add">+</button>
+        <table class='ide'>
+            <tr>
+              <td>이름</td><td><input class='insertName'/></td>
+            </tr>
+            <tr>
+              <td>사진</td><td><input class='insertFile' type='file'/></td>
+            </tr>
+            <tr>
+              <td colspan="2" class='tags'></td>
+            </tr>
+            <tr>
+              <td colspan="2" class='btn'>추가하기</td>
+            </tr>
+        </table>
+        <div class='box'></div>
+    </div>
+    
+  </body>
+</html>
